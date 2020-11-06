@@ -13,27 +13,60 @@ body {
     height: 100%;
 }
 
-.artigo {
-    width           : 100%;
-    height          : auto;
-    background-color: rbg(200, 200, 200);
-    text-align      : center;
-  }
-
-.artigo h1 {
-    color      : rgb(66, 149, 244);
-    font-size  : 23px;
-    font-style : normal;
-    font-weight: normal;
+.lista,
+.lista2 {
+    list-style-position: inside;
+    list-style-type    : disc;
+    margin-left        : 20px;
 }
 
-.artigo p {
-    color      : #b4b4b4;
-    text-align : left;
-    font-size  : 17px;
-    font-style : normal;
-    font-weight: bold;
-    line-height: 40px;
-    margin-top : 12px;
+.lista li,
+.lista2 li {
+    color     : #4b4b4b;
+    font-size : 18px;
+    margin-top: 10px;
+}
 
+.lista .item3,
+.lista2 .item3 {
+    font-weight: bold;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+/** Usando o sinal > pode ajudar ou atrapalhar **/
+ol>li {
+    color: red;
+}
+
+/** Parte da DIV**/
+p {
+    margin: 25px 50px 75px 100px;
+    color : seagreen;
+}
+
+.um {
+    width     : 500px;
+    height    : 500px;
+    background: red;
+}
+
+.um>.dois {
+    width     : 300px;
+    height    : 300px;
+    background: green;
+}
+
+.um>.tres {
+    width     : 100px;
+    height    : 100px;
+    background: blue
+}
+
+.um .quatro {
+    width     : 90px;
+    height    : 90px;
+    background: grey;
 }
