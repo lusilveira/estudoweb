@@ -1,0 +1,32 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+/*
+*
+*
+Estilo para conteudo do site
+*/
+html,
+body {
+    height: 100%;
+}
+
+.center {
+    /* box-sizing: content-box;*/
+    width: 1280px;
+    margin: 0 auto;
+    background-color: grey;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+
+}
+
+.artigo {
+  width: 100%;
+  margin-top: 40px;
+
+}
