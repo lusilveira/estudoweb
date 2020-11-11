@@ -1,0 +1,40 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+/*
+*
+*
+Estilo para conteudo do site
+*/
+html,
+body {
+    height: 100%;
+}
+
+/* [XXXX] Pega todos os atributos com a palavra dentro do [ ] 
+[href="http://www.google.com"] apenas altera o pediu
+
+
+a[href="http://google.com"]{
+    background: yellow;
+}
+O de cima vale mais do que aquele que está abaixo
+[href="http://google.com"]{
+    background:red;
+}
+
+
+a[href*="google"] {
+    Busca por palavras
+    background: blue;
+}
+*/
+
+
+a[href~="google"] {
+    /*Busca por palavras*/
+    background: blue;
+}
+
