@@ -1,0 +1,36 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+/*
+*
+*
+Estilo para conteudo do site
+*/
+html,
+body {
+    height: 100%;
+}
+
+.center {
+    box-sizing      : content-box;
+    width           : 1280px;
+    margin          : 0 auto;
+    background-color: grey;
+}
+
+.artigo {
+    box-sizing      : border-box;
+
+    /*border-left-style: dotted;
+    border-width: 30px;
+    border-color: rgb(255,0,0);*/
+
+   /* border:3px solid rgba(255, 255, 255, 1);*/
+    display       : inline-block;
+    vertical-align: top;
+    margin-right  : -4px;
+    margin-top: 30px;
+    width         : 640px;
+}
