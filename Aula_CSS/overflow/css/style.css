@@ -1,0 +1,37 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+/*
+*
+*
+Estilo para conteudo do site
+*/
+html,
+body {
+    height: 100%;
+}
+
+.box,
+.box2 {
+    width     : 300px;
+    margin    : 0 auto;
+    background: gray;
+    /*
+    overflow-x: hidden;
+    overflow-y: hidden;
+    */
+}
+
+
+.box p,
+.box2 p {
+    width: 100%;
+}
+
+.box2 {
+    display   : block;
+    margin-top: 20px;
+    background: red;
+}
