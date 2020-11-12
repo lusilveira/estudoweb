@@ -1,0 +1,47 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+/*
+*
+*
+Estilo para conteudo do site
+*/
+html,
+body {
+    height: 100%;
+}
+
+/*
+table {
+    width          : 900px;
+    border-collapse: collapse;
+    margin         : 0 auto;
+}
+
+table tr td {
+    background-color: grey;
+    height          : 300px;
+    vertical-align  : bottom;
+    border          : 3px solid black;
+}
+*/
+.menu-fixed {
+    position  : fixed;
+    left      : 50px;
+    top       : 50px;
+    width     : 300px;
+    height    : 200px;
+    background: #069;
+}
+
+.box {
+    width     : 100%;
+    height    : 1400px;
+    background: green;
+}
+
+.box p {
+    width: 400px;
+}
