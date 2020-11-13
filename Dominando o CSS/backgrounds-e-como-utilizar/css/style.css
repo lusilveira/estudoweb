@@ -1,24 +1,27 @@
-*{
-    margin:0;
-    padding:0;
-   }
-   
-   
-   html,body{
-     height:100%;
-   }
-   
-   
-   .bg{
-       width: 500px;
-       height: 500px;
-       margin: 0 auto;
-   
-       /*Backgrounds*/
-   
-       background-color: red;
+* {
+    margin : 0;
+    padding: 0;
+}
 
-       background-image: url('../images/imagem01.jpg');
-       background-size: 60px 80px;
-       background-repeat: no-repeat /*no-repeat,repeat-y,repeat-x,repeat*/
-   }
+
+html,
+body {
+    height: 100%;
+}
+
+
+.bg {
+    width : 50%;
+    height: 50%;
+    margin: 0 auto;
+
+    /*Backgrounds*/
+
+    background-color: rgb(0, 255, 76);
+
+    background-image : url('../images/imagem01.jpg');
+    background-size  : cover;
+    background-position: center /*90px 90px*/;
+    background-repeat: no-repeat
+        /*no-repeat,repeat-y,repeat-x,repeat*/
+}
