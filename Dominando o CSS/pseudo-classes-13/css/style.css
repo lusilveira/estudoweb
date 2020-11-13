@@ -32,6 +32,7 @@ body {
     background-color: rgb(50, 50, 50);
 }
 
+/*
 .teste:hover {
     height: 900px;
     background-color: blue;
@@ -39,4 +40,9 @@ body {
 
 .teste:hover, .teste1, .teste2{
     vertical-align: top;
+}
+*/
+
+.teste:active{
+    background-color: brown;
 }
