@@ -18,7 +18,7 @@ body {
 }
 
 .item {
-    width           : 33.3333%;
+    width           : 100%;
     margin-right    : -4px;
    display         : inline-block;
 }
@@ -30,7 +30,7 @@ body {
 .item p{
     background-color: blue;
     display: inline-block;
-    text-align: left;
+    text-align: right;
 }
 
 
