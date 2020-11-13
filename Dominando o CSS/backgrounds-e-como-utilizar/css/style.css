@@ -17,4 +17,8 @@
        /*Backgrounds*/
    
        background-color: red;
+
+       background-image: url('../images/imagem01.jpg');
+       background-size: 60px 80px;
+       background-repeat: no-repeat /*no-repeat,repeat-y,repeat-x,repeat*/
    }
