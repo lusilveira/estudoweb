@@ -8,19 +8,22 @@ body {
     height: 100%;
 }
 
-.bg {
-    
-    
-}
+.bg {}
 
 .box {
-    width: 100%;
-    margin: 80px auto;
-    text-align: center;
-    background-color:grey;
+    width           : 100%;
+    margin          : 80px auto;
+    text-align      : center;
+    background-color: grey;
 }
 
-.item{
-    margin: 0 40px;
-    display: inline-block;
+.item {
+    width       : 33.3333%;
+    margin-right: -4px;
+    background-color: black;
+    display     : inline-block;
+}
+
+.last{
+    margin right: 0;
 }
