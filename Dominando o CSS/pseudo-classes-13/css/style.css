@@ -37,6 +37,6 @@ body {
     background-color: blue;
 }
 
-.teste:hover .teste1, .teste2{
+.teste:hover, .teste1, .teste2{
     vertical-align: top;
 }
