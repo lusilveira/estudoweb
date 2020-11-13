@@ -16,12 +16,11 @@ body {
 .teste,
 .teste1,
 .teste2 {
-    width           : 300px;
-    margin-top      : 30px;
-    margin-left     : 30px;
-    display         : inline-block;
-    height          : 300px;
-    background-color: grey;
+    width      : 300px;
+    margin-top : 30px;
+    margin-left: 30px;
+    display    : inline-block;
+    height     : 30px;
 }
 
 .teste1 {
@@ -41,8 +40,19 @@ body {
 .teste:hover, .teste1, .teste2{
     vertical-align: top;
 }
-*/
 
+### Active serve para pressionar o mouse em cima##
 .teste:active{
     background-color: brown;
+}
+*/
+
+.teste:focus {
+    background-color: crimson;
+}
+
+.textarea1{
+    display: block;
+    width: 600px;
+    height:  400px;
 }
