@@ -18,12 +18,22 @@ body {
 }
 
 .item {
-    width       : 33.3333%;
-    margin-right: -4px;
-    background-color: black;
-    display     : inline-block;
+    width           : 33.3333%;
+    margin-right    : -4px;
+   display         : inline-block;
 }
 
-.last{
+.item img {
+    width: 16%;
+}
+
+.item p{
+    background-color: blue;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.last {
     margin right: 0;
 }
