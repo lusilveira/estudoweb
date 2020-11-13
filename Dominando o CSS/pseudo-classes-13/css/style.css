@@ -45,8 +45,8 @@ body {
 .teste:active{
     background-color: brown;
 }
-*/
 
+## Focus dar foco no elemento ##
 .teste:focus {
     background-color: crimson;
 }
@@ -55,4 +55,15 @@ body {
     display: block;
     width: 600px;
     height:  400px;
+    }
+
+    .link1:visited{
+    color: darkblue;
+    
+}
+
+*/
+
+.link1:link{
+    color: darkorchid;
 }
