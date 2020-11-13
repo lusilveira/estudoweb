@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.bg{
+    width: 500px;
+    margin: 0 auto;
+    height: 400px;
+    background-image:url('../img/sunset.jpg') ;
+    background-color: aqua;
+   /*
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    */
+}
